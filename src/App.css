@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+.home{
+  background-color: aliceblue;
+}
+.products{
+  display: grid;
+  grid-template-columns: 400px 400px;
+  justify-items: center;
+  width: 800px;
+  margin: auto;
+}
+.product{
+  width: 350px;
+  height: 350px;
+}
+.product img{
+  width: 200px;
+  height: 250px;
+}
+.display-prod>h1{
+  text-align: center;
+}

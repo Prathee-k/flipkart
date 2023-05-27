@@ -1,0 +1,93 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    background-color: #2874f0;
+    height: 50px;
+    width: 100%;
+    box-sizing: border-box;
+}
+#navbar>article{
+    display: flex;
+    margin: auto;
+    width: 85%;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    box-sizing: border-box;
+    padding: 1%;
+}
+
+#navbar>article>main:nth-child(1){
+    width: 5%;
+    margin: auto;
+}
+#navbar>article>main:nth-child(1) img{
+height: 20px;
+width: 70px;
+margin-left: 55%;
+}
+#navbar>article>main:nth-child(1) p{
+font-size: 12px;
+position: absolute;
+color: white;
+top: 30px;
+margin-left: 40px;
+}
+#navbar>article>main:nth-child(1) span{
+    font-size: 10px;
+    color:yellow ;
+    }
+#navbar>article>main:nth-child(2){
+    width: 40%;
+    margin: auto;
+    background-color: rgb(255, 127, 127);
+}
+#navbar>article>main:nth-child(2) input{
+height: 30px;
+width: 100%;
+border: none;
+box-shadow: 1px 1px 4px rgb(96, 92, 92);
+border-radius: 2px;
+}
+#navbar>article>main:nth-child(2) i{
+    color: #2874f0;
+    position: absolute;
+    margin-left: -20px;
+     margin-top: 6px;
+}
+
+#navbar>article>main:nth-child(3){
+    width: 40%;
+    display: flex;
+    margin: auto;
+    color: white;
+   
+    justify-content: space-between;
+}
+#navbar>article>main:nth-child(3) button{
+    box-sizing: border-box;
+    padding: 0 12% ;
+    height: 25px;
+    color: #2874f0;
+    background-color: white;
+    border: none;
+    text-align: center;
+}
+#navbar>article>main:nth-child(3) ul {
+display: flex;
+width: 60%;
+}
+
+#navbar>article>main:nth-child(3) ul li{
+list-style: none;
+display: flex;
+margin-right: 5%;
+
+}
+#navbar>article>main:nth-child(3) ul li a{
+color: white;
+text-decoration: none;}
